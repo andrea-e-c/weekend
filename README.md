@@ -1,5 +1,10 @@
-# Getting Started with Create React App
+# Welcome!
+Hello! Thank you for checking out my app.
+Please see my fun little overview video here: https://youtu.be/0zNpG-mWdy8
+Please see a limited presentation deck here: https://docs.google.com/presentation/d/1_vYwpshcJa_kmWNFtZ9HDDFMbfAjnHZkrkz5Tdom1KQ/edit?usp=sharing
 
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

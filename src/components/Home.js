@@ -3,6 +3,7 @@ import '../Home.css';
 import { connect } from "react-redux";
 import { fetchEvents } from "../store/allEvents";
 
+// SEED DATA FOR NOW
 const events = [
     {
         "title": "Magic Show",
@@ -27,6 +28,7 @@ const events = [
     }
 ]
 
+// CONSIDERING CHANGING TO FUNCTIONAL COMPONENT
  class Home extends React.Component {
     //  componentDidMount(){
     //      this.props.getEvents();
