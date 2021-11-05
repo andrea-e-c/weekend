@@ -19,8 +19,8 @@ document.getElementById('toggle-dark-mode').addEventListener('click', async () =
   }
 
 // THIS NOTIFICATION DOES NOT SEEM TO BE WORKING.  
-const NOTIFICATION_TITLE = 'Title'
-const NOTIFICATION_BODY = 'Notification from the Renderer process. Click to log to console.'
+const NOTIFICATION_TITLE = 'WKND Notification'
+const NOTIFICATION_BODY = 'Welcome to your WKND!'
 const CLICK_MESSAGE = 'Notification clicked!'
 
 new Notification(NOTIFICATION_TITLE, { body: NOTIFICATION_BODY })

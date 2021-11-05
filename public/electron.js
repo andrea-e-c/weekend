@@ -111,16 +111,16 @@ const dockMenu = Menu.buildFromTemplate([
   { label: "New Command..." },
 ]);
 
-// ******* NOTIFICATIONS *******
-const NOTIFICATION_TITLE = "Basic Notification";
-const NOTIFICATION_BODY = "Notification from the Main process";
+// ******* NOTIFICATIONS ******* --> activated in renderer.js
+// const NOTIFICATION_TITLE = "Basic Notification";
+// const NOTIFICATION_BODY = "Welcome to your WKND!";
 
-const showNotification = () => {
-  new Notification({
-    title: NOTIFICATION_TITLE,
-    body: NOTIFICATION_BODY,
-  }).show();
-};
+// const showNotification = () => {
+//   new Notification({
+//     title: NOTIFICATION_TITLE,
+//     body: NOTIFICATION_BODY,
+//   }).show();
+// };
 
 // ******* TRAY IS THE ICON IN THE TOP RIGHT CORNER WHEN YOUR APP IS RUNNNG *******
 let tray;
@@ -145,7 +145,7 @@ app
     });
   })
   // SHOW THE NOTIFICATION DEFINED ABOVE
-  .then(showNotification)
+  // .then(showNotification)
   // SHOW AN ICON IN THE TOP RIGHT OF THE SCREEN
   .then(() => {
     const icon = nativeImage.createFromPath("path/to/asset.png");
@@ -161,6 +161,7 @@ app
     tray.setToolTip("This is my application");
     tray.setTitle("WKND");
   });
+
 
 // before the app is terminated, clear both timers
 app.on('before-quit', () => {
